@@ -1,4 +1,14 @@
 
+
+
+编译  mvn -Prelease-nacos -Dmaven.test.skip=true -Dpmd.skip=true -Dcheckstyle.skip=true -Drat.skip=true clean install -U
+
+打包  在distribution目录下执行  mvn clean install -P release-nacos -X
+
+
+
+
+
 <img src="doc/Nacos_Logo.png" width="50%" syt height="50%" />
 
 # Nacos: Dynamic  *Na*ming and *Co*nfiguration *S*ervice
